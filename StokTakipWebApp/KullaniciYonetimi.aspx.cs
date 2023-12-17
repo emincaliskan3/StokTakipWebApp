@@ -49,7 +49,7 @@ namespace StokTakipWebApp
         {
             var kullanici = new Users()
             {
-
+                Id = Convert.ToInt32(dgvKullanicilar.SelectedRow.Cells[1].Text),
                 Name = txtAd.Text,
                 Surname = txtSoyad.Text,
                 Email = txtEmail.Text,
